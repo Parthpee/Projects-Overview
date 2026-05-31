@@ -26,7 +26,7 @@ Below are the five projects that best demonstrate my technical skills, problem-s
 - [Security, Privacy, and Responsible AI](#security-privacy-and-responsible-ai)
 - [Deployment Strategy](#deployment-strategy)
 - [Roadmap](#roadmap)
-- [Project 6 (In Progress): 🃏 Blackjack V3]
+- [Project 6 (In Progress): 🃏 Blackjack V3](#project-6-In-Progress-Blackjack-V3)
 
 ## Portfolio Architecture Principles
 
