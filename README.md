@@ -1,4 +1,4 @@
-<img width="310" height="583" alt="Screenshot 2026-05-31 at 11 29 03" src="https://github.com/user-attachments/assets/cf46a17a-7056-4d2a-8ae2-46d7166d6816" /># My Top 5 Projects for Consideration
+# My Top 5 Projects for Consideration
 
 Below are the five projects that best demonstrate my technical skills, problem-solving abilities, and hands-on experience. These projects highlight my expertise in design, development, implementation, and real-world application.
 
