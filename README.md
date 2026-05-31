@@ -1,4 +1,4 @@
-# My Top 5 Projects for Consideration
+<img width="310" height="583" alt="Screenshot 2026-05-31 at 11 29 03" src="https://github.com/user-attachments/assets/cf46a17a-7056-4d2a-8ae2-46d7166d6816" /># My Top 5 Projects for Consideration
 
 Below are the five projects that best demonstrate my technical skills, problem-solving abilities, and hands-on experience. These projects highlight my expertise in design, development, implementation, and real-world application.
 
@@ -1612,3 +1612,88 @@ This portfolio demonstrates end-to-end AI system design across five applied proj
 - **EmpathBot** shows emotion-aware human-robot interaction using ROS2 and adaptive response policies.
 
 Together, the projects represent a cohesive AI engineering portfolio covering backend scalability, real-time inference, responsible AI, MLOps, IoT, and robotics-ready system architecture.
+
+# 🃏 Blackjack V3
+
+An advanced, data-driven Blackjack simulation and strategy optimization platform. Built to bridge the gap between classic gameplay and real-time statistical analytics, Blackjack V3 features a dedicated mathematical engine that tracks table telemetry, evaluates deck depths, and calculates optimal strategic play on the fly.
+
+<img width="310" height="583" alt="Screenshot 2026-05-31 at 11 29 03" src="https://github.com/user-attachments/assets/95d4e3fa-2a87-4796-910c-562969b0a0ca" />
+
+
+## 🚀 Key Features
+
+* **Real-Time Probability Engine:** Dynamically calculates your active hand win probability based on visible cards and current shoe composition.
+* **True Count (TC) Analytics:** Monitors running parameters and outputs precise card-counting metrics ($TC$) to simulate high-level professional play.
+* **AI Strategy Advisor:** Instantly flags the mathematically ideal choice (`Hit`, `Stand`, `Double`, `Split`, or `Surrender`) using a dynamic policy evaluator.
+* **Modern Dark-Mode UI:** A high-fidelity, distraction-free interface built for streamlined user interactions and clean game-state tracking.
+
+---
+
+## 🏗️ System Architecture
+
+The application relies on a decoupled, modular pipeline separating the rendering layout from the underlying mathematical evaluation layers to ensure minimal calculation latency.
+
+┌────────────────────────────────────────────────────────┐
+│                      Frontend UI                       │
+│       (State Management / Action Handlers)            │
+└───────────────────────────┬────────────────────────────┘
+│
+│ Live Game State (Hand, Upcard, Shoe)
+▼
+┌────────────────────────────────────────────────────────┐
+│                   Statistical Engine                   │
+│  - Probability Matrix Calculator                       │
+│  - Shoe Tracker & Card Counter (True Count Analytics)  │
+│  - Deep Strategy Policy Evaluator                      │
+└───────────────────────────┬────────────────────────────┘
+│
+│ Optimal Action / Win Probability
+▼
+┌────────────────────────────────────────────────────────┐
+│                     Decision Matrix                    │
+│             [ Hit | Stand | Double | Split ]           │
+└────────────────────────────────────────────────────────┘
+
+
+* **UI Layer:** Manages application states, betting interactions, player chip balances, and responsive visual updates.
+* **Statistical Engine:** Keeps an active matrix of remaining card frequencies, tracks running math values, and computes deck penetration to deliver precise True Count calculations.
+* **Decision Advisor:** Compares current hand weights against the dealer’s upcard matrix to instantly recommend standard basic strategy and adjusted deviations.
+
+---
+
+## 🚀 Deployment Strategy
+
+Blackjack V3 is built with portability, speed, and continuous refinement in mind:
+
+* **Continuous Integration (CI):** Automatic testing workflows validate complex scoring rules, soft vs. hard hands, splitting conditions, and shoe-exhaustion logic upon every commit.
+* **Containerization:** Environment states are wrapped in Docker containers to facilitate seamless building and execution across development setups and host platforms.
+* **Target Deployments:**
+  * **Desktop / Local:** Light, high-performance binary optimized for execution in a localized environment.
+  * **Web / Cloud (Planned):** Target compilation via WebAssembly (Wasm) or automated cloud-container hosting to serve the engine calculations inside any web browser.
+
+---
+
+## 🗺️ Roadmap
+
+### Phase 1: Core Mechanics & Analytics 🟢 (In Progress)
+- [x] High-fidelity dark-theme interface layout and modern asset styling
+- [x] Live deck composition tracking and dynamic True Count ($TC$) calculations
+- [x] Predictive probability matrix displaying active hand win rates
+- [x] Instant Optimal Action calculation logic (`Hit` / `Stand` / `Double` / `Surrender`)
+
+### Phase 2: Simulation Customization 🟡
+- [ ] Multi-deck shoe support (configure 1, 2, 4, 6, or 8 decks dynamically)
+- [ ] Rule variant customization toggle (e.g., Dealer hits on Soft 17, Double After Split rules)
+- [ ] Session history, performance variance tracking, and profit/loss graphing dashboards
+- [ ] Bankroll management utility featuring an integrated Kelly Criterion bet-sizing calculator
+
+### Phase 3: Machine Learning & Mass Simulation 🔵
+- [ ] Deep Reinforcement Learning (RL) agent integration to run custom strategy models alongside classic basic strategy
+- [ ] Multi-threaded Monte Carlo simulator to run millions of hands instantly for long-term strategic testing
+- [ ] Web-based hosting for cross-platform deployment
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
