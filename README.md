@@ -1633,26 +1633,7 @@ An advanced, data-driven Blackjack simulation and strategy optimization platform
 
 The application relies on a decoupled, modular pipeline separating the rendering layout from the underlying mathematical evaluation layers to ensure minimal calculation latency.
 
-┌────────────────────────────────────────────────────────┐
-│                      Frontend UI                       │
-│       (State Management / Action Handlers)            │
-└───────────────────────────┬────────────────────────────┘
-│
-│ Live Game State (Hand, Upcard, Shoe)
-▼
-┌────────────────────────────────────────────────────────┐
-│                   Statistical Engine                   │
-│  - Probability Matrix Calculator                       │
-│  - Shoe Tracker & Card Counter (True Count Analytics)  │
-│  - Deep Strategy Policy Evaluator                      │
-└───────────────────────────┬────────────────────────────┘
-│
-│ Optimal Action / Win Probability
-▼
-┌────────────────────────────────────────────────────────┐
-│                     Decision Matrix                    │
-│             [ Hit | Stand | Double | Split ]           │
-└────────────────────────────────────────────────────────┘
+<img width="439" height="411" alt="Screenshot 2026-05-31 at 11 40 51" src="https://github.com/user-attachments/assets/55ba92db-3df6-4f39-96be-8ff608ca4332" />
 
 
 * **UI Layer:** Manages application states, betting interactions, player chip balances, and responsive visual updates.
@@ -1691,9 +1672,5 @@ Blackjack V3 is built with portability, speed, and continuous refinement in mind
 - [ ] Deep Reinforcement Learning (RL) agent integration to run custom strategy models alongside classic basic strategy
 - [ ] Multi-threaded Monte Carlo simulator to run millions of hands instantly for long-term strategic testing
 - [ ] Web-based hosting for cross-platform deployment
+<img width="446" height="404" alt="Screenshot 2026-05-31 at 11 40 13" src="https://github.com/user-attachments/assets/e80a1552-f96f-4a60-8df1-60411bcd389f" />
 
----
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
