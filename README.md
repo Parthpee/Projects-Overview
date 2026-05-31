@@ -1,6 +1,6 @@
-# AI/ML Project Architecture Portfolio
+# My Top 5 Projects for Consideration
 
-A GitHub-ready architecture README for five production-oriented AI systems covering LLM/RAG, computer vision, preventive health monitoring, MLOps, IoT, and human-robot interaction.
+Below are the five projects that best demonstrate my technical skills, problem-solving abilities, and hands-on experience. These projects highlight my expertise in design, development, implementation, and real-world application.
 
 ## Projects Covered
 
