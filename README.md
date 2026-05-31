@@ -26,6 +26,7 @@ Below are the five projects that best demonstrate my technical skills, problem-s
 - [Security, Privacy, and Responsible AI](#security-privacy-and-responsible-ai)
 - [Deployment Strategy](#deployment-strategy)
 - [Roadmap](#roadmap)
+- [Project 6 (In Progress): 🃏 Blackjack V3]
 
 ## Portfolio Architecture Principles
 
@@ -1613,7 +1614,7 @@ This portfolio demonstrates end-to-end AI system design across five applied proj
 
 Together, the projects represent a cohesive AI engineering portfolio covering backend scalability, real-time inference, responsible AI, MLOps, IoT, and robotics-ready system architecture.
 
-# 🃏 Blackjack V3
+# Project 6 (In Progress): 🃏 Blackjack V3
 
 An advanced, data-driven Blackjack simulation and strategy optimization platform. Built to bridge the gap between classic gameplay and real-time statistical analytics, Blackjack V3 features a dedicated mathematical engine that tracks table telemetry, evaluates deck depths, and calculates optimal strategic play on the fly.
 
@@ -1672,5 +1673,4 @@ Blackjack V3 is built with portability, speed, and continuous refinement in mind
 - [ ] Deep Reinforcement Learning (RL) agent integration to run custom strategy models alongside classic basic strategy
 - [ ] Multi-threaded Monte Carlo simulator to run millions of hands instantly for long-term strategic testing
 - [ ] Web-based hosting for cross-platform deployment
-<img width="446" height="404" alt="Screenshot 2026-05-31 at 11 40 13" src="https://github.com/user-attachments/assets/e80a1552-f96f-4a60-8df1-60411bcd389f" />
 
