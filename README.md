@@ -1,4 +1,4 @@
-# My Top 5 Projects for Consideration
+# My Projects for Consideration
 
 Below are the five projects that best demonstrate my technical skills, problem-solving abilities, and hands-on experience. These projects highlight my expertise in design, development, implementation, and real-world application.
 
@@ -26,7 +26,7 @@ Below are the five projects that best demonstrate my technical skills, problem-s
 - [Security, Privacy, and Responsible AI](#security-privacy-and-responsible-ai)
 - [Deployment Strategy](#deployment-strategy)
 - [Roadmap](#roadmap)
-- [Project 6: Blackjack V3](#project-6-blackjack-v3)
+- [Project 6: Blackjack V3](#project-6-blackjack-v3) in progress........
 
 ## Portfolio Architecture Principles
 
